@@ -69,4 +69,3 @@ Jika password disimpan dengan hashing yang benar, hasil dump seharusnya menunjuk
 ---
 
 > **Catatan Penting**: Pastikan Anda memiliki izin untuk melakukan pengujian ini. Semua pengujian dan eksplorasi dalam dokumen ini hanya untuk tujuan pembelajaran di lingkungan yang diizinkan.
-```
