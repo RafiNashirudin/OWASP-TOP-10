@@ -14,15 +14,6 @@ sqlmap -u "http://192.168.1.5/users/login.php" --data="username=admin&password=p
 #### Contoh Output
 Output dari perintah ini mungkin menampilkan data seperti berikut:
 
-```plaintext
-+----+----------+----------+
-| id | username | password |
-+----+----------+----------+
-| 1  | admin    | admin123 |
-| 2  | user     | userpass |
-+----+----------+----------+
-```
-
 ![Password tidak terenkripsi ](Image/cryptographi.png)
 
 Pada hasil di atas, terlihat bahwa kolom `password` menyimpan password dalam bentuk teks biasa (*plain text*), bukan dalam bentuk yang terenkripsi atau di-hash. Ini adalah kelemahan serius yang masuk dalam kategori **Cryptographic Failures**.
