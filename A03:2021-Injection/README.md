@@ -1,6 +1,3 @@
-Berikut adalah `README.md` yang lebih lengkap untuk menjelaskan proses eksploitasi dengan `sqlmap`, temuan password yang tidak di-hash, dan penjelasan tentang *Cryptographic Failures*.
-
-```markdown
 # SQL Injection Proof of Concept (PoC) Using SQLMap
 
 ## Deskripsi
@@ -61,6 +58,7 @@ Output dari perintah ini mungkin menampilkan data seperti berikut:
 | 2  | user     | userpass |
 +----+----------+----------+
 ```
+![alt text](https://github.com/RafiNashirudin/OWASP-TOP-10/blob/main/A03%3A2021-Injection/Image/injection.png?raw=true)
 
 Pada hasil di atas, terlihat bahwa kolom `password` menyimpan password dalam bentuk teks biasa (*plain text*), bukan dalam bentuk yang terenkripsi atau di-hash. Ini adalah kelemahan serius yang masuk dalam kategori **Cryptographic Failures**.
 
